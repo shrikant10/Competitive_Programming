@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2022b044-7f67-443c-b989-e31a2f789bac" name="Default" comment="DP Algorithms added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Fibonacci.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Longest_Common_Subsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Longest_Increasing_Subsequence.java" />
+    <list default="true" id="2022b044-7f67-443c-b989-e31a2f789bac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Coin_Change.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Edit_Distance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Min_Cost_Path.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,45 +16,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Fibonacci.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Min_Cost_Path.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Min_Cost_Path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="702">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Dijkstra.java">
+      <file leaf-file-name="Coin_Change.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Coin_Change.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Longest_Common_Subsequence.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Longest_Common_Subsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Longest_Increasing_Subsequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Longest_Increasing_Subsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +82,10 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Longest_Common_Subsequence.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Longest_Increasing_Subsequence.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Prime_Num_Sieve.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Edit_Distance.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Min_Cost_Path.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Coin_Change.java" />
       </list>
     </option>
   </component>
@@ -141,9 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +146,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,15 +172,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Longest_Common_Subsequence">
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Coin_Change">
+    <configuration name="Coin_Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Dijkstra" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Coin_Change" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -207,17 +189,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CompetitveProgramming" />
+      <module name="Competitive_Programming" />
       <envs />
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Edit_Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Edit_Distance" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -248,39 +230,6 @@
       <module name="Competitive_Programming" />
       <envs />
     </configuration>
-    <configuration name="Longest_Increasing_Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Longest_Increasing_Subsequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Competitive_Programming" />
-      <envs />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ACM_ICPC.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CompetitveProgramming" />
-      <envs />
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -298,6 +247,44 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CompetitveProgramming" />
+      <envs />
+    </configuration>
+    <configuration name="Min_Cost_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Min_Cost_Path" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Competitive_Programming" />
+      <envs />
+    </configuration>
+    <configuration name="Prime_Num_Sieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Prime_Num_Sieve" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Competitive_Programming" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -393,19 +380,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Dijkstra" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Longest_Increasing_Subsequence" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Longest_Common_Subsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Longest_Common_Subsequence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Prime_Num_Sieve" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Edit_Distance" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Min_Cost_Path" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Coin_Change" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Longest_Common_Subsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Longest_Increasing_Subsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Dijkstra" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Coin_Change" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Min_Cost_Path" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Edit_Distance" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Prime_Num_Sieve" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Longest_Common_Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +421,8 @@
       <workItem from="1510079358262" duration="796000" />
       <workItem from="1512149986490" duration="198000" />
       <workItem from="1513517753146" duration="610000" />
-      <workItem from="1513518407609" duration="7082000" />
+      <workItem from="1513518407609" duration="10557000" />
+      <workItem from="1513591361831" duration="6293000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1513532266642</created>
@@ -443,11 +431,25 @@
       <option name="project" value="LOCAL" />
       <updated>1513532266642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DP Algorithms added">
+      <created>1513532848723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513532848723</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Algorithms">
+      <created>1513592286435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513592286435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43269000" />
+    <option name="totallyTimeSpent" value="53037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -455,14 +457,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12472406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12472406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18432671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18432671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -473,8 +475,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -491,7 +493,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="DP Algorithms added" />
-    <option name="LAST_COMMIT_MESSAGE" value="DP Algorithms added" />
+    <MESSAGE value="Adding Algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Algorithms" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -501,13 +504,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Nov_Long/Chef_Hates_Palindromes.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Edit_Distance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Longest_Common_Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Prime_Num_Sieve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -515,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,9 +539,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Nov_Long/Chef_Hates_Palindromes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -666,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,15 +708,47 @@
         <state relative-caret-position="655">
           <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Longest_Common_Subsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="432">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Prime_Num_Sieve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Edit_Distance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Min_Cost_Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Coin_Change.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
