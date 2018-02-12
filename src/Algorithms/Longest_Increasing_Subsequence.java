@@ -5,7 +5,7 @@ import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.Scanner;
 
-public class Longest_Increasing_Subsequence {
+public class  Longest_Increasing_Subsequence {
 
     static int cal_lis(int arr[], int n) {
         int lis[] = new int[n + 1];   // 1 based indexing

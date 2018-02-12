@@ -82,22 +82,19 @@ class A1 {
             for (int i = 1; i < 4; i++) {
                 z[i] = in.nextInt();
             }
+
             int ans = check(x, y);
             if (ans == 1) {
                 if (check(y, z) == 1) {
                     flag = true;
-                } else if (check(y, z) == 2) {
-                    if (check(x, z) > 0) {
-                        flag = true;
-                    }
+                } else if (check(y, z) == 2 && check(x, z) > 0) {
+                    flag = true;
                 }
             } else if (ans == 2) {
                 if (check(x, z) == 1) {
                     flag = true;
-                } else if (check(x, z) == 2) {
-                    if (check(y, z) > 0) {
-                        flag = true;
-                    }
+                } else if (check(x, z) == 2 && check(y, z) > 0) {
+                    flag = true;
                 }
             }
 

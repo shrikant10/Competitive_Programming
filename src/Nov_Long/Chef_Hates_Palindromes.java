@@ -3,10 +3,10 @@ package Nov_Long;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
-/*
+
 public class Chef_Hates_Palindromes {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+/*        Scanner in = new Scanner(System.in);
         int t = in.nextInt();
         while (t-- > 0) {
             int n = in.nextInt();
@@ -34,6 +34,7 @@ public class Chef_Hates_Palindromes {
     }
 
     }
-    }
-}
 */
+    }
+
+}
